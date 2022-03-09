@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+    width: inherit;
+}
+h1 {
+    font-family: Montserrat-ExtraBold, system-ui;
+    font-size:  90px;
+}
+
+p {
+    font-family: Montserrat-SemiBold, system-ui;
+    font-size: 16px;
+}
+
+ul {
+    list-style:none;
+}
+
+.dot{
+    left: -500px;
+    top: -500px;
+    position: absolute;
+    height: 1300px;
+    width: 1300px;
+    background-color: #F1CE0D;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: -1;
+}
+
+#info {
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#info img {
+    width: 7%;
+    margin-left: 10%;
+}
+
+.barline{
+    background-color: #F1CE0D;
+    /*width: auto;*/
+    height: 15px;
+    z-index: -1;
+}
+
+#info div {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.lekar {
+
+}
+
+.lekar img {
+    width: 40%;
+    margin-left: 3%;
+}
+
+#bgy {
+    margin-top: 20%;
+    width: 100%;
+    min-width: 1440px;
+    height: 1116px;
+    z-index: -4;
+    position: absolute;
+    display: inline-block;
+}
+
+.medikace_title{
+    margin-top: 15%;
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+.medikace{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.medikace-item {
+    display: block;
+    border: 2px solid black;
+    width: 376px;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.medikace-item img{
+    height: 278px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.medikace-item div{
+    background-color: #F1CE0D;
+}
+
+.medikace-item p {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #F1CE0D;
+    min-height: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer img {
+    margin-left: 1%;
+}
+
